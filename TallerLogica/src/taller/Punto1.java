@@ -15,7 +15,7 @@ package taller;
  *
  * @author Krausser
  */
-public class Operaciones {
+public class Punto1 {
 
     public static void main(String[] args) {
 

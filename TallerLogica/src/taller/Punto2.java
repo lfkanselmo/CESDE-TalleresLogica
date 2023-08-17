@@ -10,7 +10,8 @@ import java.util.Scanner;
  *
  * @author Krausser
  */
-public class PerimetroArea {
+public class Punto2 {
+
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
         System.out.println("Ingrese la base: ");
@@ -19,18 +20,18 @@ public class PerimetroArea {
         System.out.println("Ingrese la altura: ");
         double h = read.nextDouble();
         System.out.println();
-        
-        System.out.println("El perimetro es igual a: " + perimeter(h,base) + " unidades" );
-        System.out.println("El area es igual a: " + area(h,base) + " unidades cuadradas");
+
+        System.out.println("El perimetro es igual a: " + perimeter(h, base) + " unidades");
+        System.out.println("El area es igual a: " + area(h, base) + " unidades cuadradas");
     }
-    
+
     //funcion perimetro
-    public static double perimeter(double h, double base){
+    public static double perimeter(double h, double base) {
         return ((2 * h) + (2 * base));
     }
-    
+
     //funcio para el area
-    public static double area(double h, double base){
-        return h*base;
+    public static double area(double h, double base) {
+        return h * base;
     }
 }
