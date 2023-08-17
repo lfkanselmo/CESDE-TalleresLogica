@@ -26,7 +26,7 @@ public class PerimetroArea {
     
     //funcion perimetro
     public static double perimeter(double h, double base){
-        return ((2*h)+(2*base));
+        return ((2 * h) + (2 * base));
     }
     
     //funcio para el area
