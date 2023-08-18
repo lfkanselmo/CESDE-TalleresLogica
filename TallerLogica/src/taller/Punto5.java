@@ -70,7 +70,7 @@ public class Punto5 {
             int opc = read.nextInt();
             read.skip("\n");
 
-            if (bloqueo == false) {
+            if (bloqueo == false || opc == 6) {
                 switch (opc) {
                     case 1:
                         System.out.println("Su saldo actual es:" + consultarSaldo());
@@ -93,7 +93,7 @@ public class Punto5 {
                         System.out.println("******** TERMINANDO ********");
                         break;
                     default:
-                        System.out.println("Opción ingresadoa no válida");
+                        System.out.println("Opción ingresada no válida");
                         break;
                 }
             } else {
